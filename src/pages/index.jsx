@@ -49,7 +49,7 @@ export default function Homepage() {
             </a>
           </div>
           <div className="text-center">
-            <a href="https://bit.ly/3ApObuY" target="_blank" rel="noreferrer">
+            <a href="http://bit.ly/3EObT6O" target="_blank" rel="noreferrer">
               <NextImage src="/youtube.png" height={80} width={80} />{" "}
             </a>
           </div>
