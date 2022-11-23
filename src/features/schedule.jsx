@@ -41,7 +41,7 @@ export function Schedule({}) {
             {[
               "Introduction to Modern Web Development",
               "Vanilla JavaScript for Beginners",
-              "Writing Clean code using SOLID",
+              "JavaScript Interview Questions/Answers",
               "Designing UX using TailwindCSS",
               "Databases and CRUD - SQL and MongoDB",
               "Introduction to Web3 and Crypto",
