@@ -29,12 +29,12 @@ export default function Homepage() {
         <div className="flex items-center justify-center gap-4">
           <div className="text-center">
             <a href="https://bit.ly/3hE7qL1" target="_blank" rel="noreferrer">
-              <NextImage src="/twitch.png" height={80} width={80} />{" "}
+              <img src="/twitch.png" height={80} width={80} />{" "}
             </a>
           </div>
           <div className="text-center">
             <a href="http://bit.ly/3EObT6O" target="_blank" rel="noreferrer">
-              <NextImage src="/youtube.png" height={80} width={80} />{" "}
+              <img src="/youtube.png" height={80} width={80} />{" "}
             </a>
           </div>
         </div>
