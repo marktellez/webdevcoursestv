@@ -44,7 +44,7 @@ export function Schedule({}) {
               "JavaScript Interview Questions/Answers",
               "Designing UX using TailwindCSS",
               "Databases and CRUD - SQL and MongoDB",
-              "Introduction to Web3 and Crypto",
+              "LEARN JavaScript Building THIS game!",
             ].map((text, i) => (
               <div key={i} className=" font-semibold ">
                 {text}
