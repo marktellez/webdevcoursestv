@@ -1,4 +1,4 @@
-import NextImage from "next/image";
+import { Header } from "@/features/header";
 import { Schedule } from "@/features/schedule";
 
 // ☝🏻☝🏼☝🏽☝🏾☝🏿
@@ -9,16 +9,7 @@ import { Schedule } from "@/features/schedule";
 export default function Homepage() {
   return (
     <div className="sm:mt-8 container mx-auto w-full md:w-2/3 lg:w-1/2 flex flex-col gap-2 md:gap-8">
-      <div className="flex gap-4 items-center justify-center pt-2">
-        <div className="">
-          <img src="/logo.png" className="w-[40px]" />
-        </div>
-        <div className="text-2xl md:text-6xl font-black">
-          webdev<span className="text-yellow-500">courses</span>
-          <span className="text-blue-500">.tv</span>
-        </div>
-      </div>
-
+      <Header />
       <div className="flex flex-col gap-6 items-center justify-center p-8">
         <div>
           <p className="md:text-lg">
