@@ -9,3 +9,7 @@ body {
 h1 {
   @apply text-5xl prose-2xl prose-invert;
 }
+
+p {
+  @apply text-sm sm:text-lg my-2 sm:my-3;
+}

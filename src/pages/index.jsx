@@ -9,9 +9,9 @@ import { Schedule } from "@/features/schedule";
 export default function Homepage() {
   return (
     <div className="sm:mt-8 container mx-auto w-full md:w-2/3 lg:w-1/2 flex flex-col gap-2 md:gap-8">
-      <div className="flex gap-4 items-center justify-center">
-        <div className="pt-2">
-          <NextImage src="/logo.png" height={60} width={60} />
+      <div className="flex gap-4 items-center justify-center pt-2">
+        <div className="">
+          <img src="/logo.png" className="w-[40px]" />
         </div>
         <div className="text-2xl md:text-6xl font-black">
           webdev<span className="text-yellow-500">courses</span>
@@ -44,9 +44,27 @@ export default function Homepage() {
           online, live, and for the price of a cup of coffee if you can afford
           it, or nothing at all except good wishes if you can&apos;t!
         </p>
-        <p className="text-md italic text-yellow-400 font-black">
-          🔥 You can learn 5 days a week in the curriculum below. 👇🏽👇🏻👇🏿👇🏼👇🏾
-        </p>
+
+        <div className="flex flex-wrap sm:flex-nowrap gap-2 md:gap-8 w-full">
+          <div className="flex-col justify-center w-full sm:w-2/3">
+            <p className="font-bold">Consider donating a buck or two!</p>
+            <p>
+              Your tips go directly to my beautiful wife of 10 years, my sweet
+              Monse. Even in after my death.
+            </p>
+            <p>
+              You are also supporting a small Mexican family-owned and operated
+              business wholly owned and operated in Mexico.
+            </p>
+          </div>
+          <div className="w-full sm:w-1/3 flex flex-wrap sm:flex-nowrap gap-2 md:gap-8 items-center justify-center">
+            <img
+              src="/tipjar.png"
+              alt="Our Tipjar"
+              className="w-[120px] h-[120px]"
+            />
+          </div>
+        </div>
       </div>
 
       <Schedule />
